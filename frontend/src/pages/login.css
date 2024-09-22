@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(../Fonts/Nohemi-Font/Nohemi-Light-BF6438cc5899919.ttf);
+}
+
+.login-page{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page h1{
+    font-family: myfont;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}

@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: rgb(151, 222, 243);
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    width: 80%;
+    margin-top: 1%;
+    background: white;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.box1{
+    width: 50%;
+    background: white;
+    height: 80vh;
+    z-index: 50;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    display: grid;
+    place-items: center;
+}
+
+.box1-content{
+    position: absolute;
+    /* border: 2px solid salmon; */
+    width: 35vw;
+    display: grid;
+    place-items: center;
+    margin-left: 15vw;
+    height: 60vh;
+}
+
+.member{
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.member h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.box1-content img{
+    height: 5vh;
+}
+
+.heading{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    width: 95%;
+}
+
+.Sign{
+    color: rgb(48, 137, 219);
+}
+
+.box1-content h1{
+    text-align: left;
+    width: 70%;
+    font-size: 2.5rem;
+}
+
+form label input{
+    outline: none;
+}
+
+.box1-content p{
+    text-align: left;
+    width: 80%;
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: 500;
+}
+
+.circle{
+    border: 1px solid grey;
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.arrow{
+    font-size: 0.8rem;
+}
+
+.box2{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    height: 80vh;
+    background: rgb(79, 127, 231);
+    clip-path: polygon(22% 0, 100% 0%, 100% 100%, 10% 100%);
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.box11{
+    position: relative;
+    width: 50%;
+    height: 20vh;
+    z-index: 50;
+    margin-top: -9%;
+    left: 20%;
+    rotate: -10deg;
+    border-radius: 1.5rem;
+    background: rgb(2, 29, 87);
+}
+
+.box12{
+    position: relative;
+    width: 50%;
+    height: 30vh;
+    top: -15%;
+    left: 55%;
+    rotate: 10deg;
+    border-radius: 1.5rem;
+    background: rgb(96, 140, 236);
+}
+
+.box13{
+    position: relative;
+    width: 60%;
+    height: 75vh;
+    top: -15%;
+    left: 15%;
+    rotate: 70deg;
+    border-radius: 1.5rem;
+    background: rgb(103, 146, 238);
+}
+
+.box14{
+    position: relative;
+    width: 50%;
+    height: 90vh;
+    z-index: 50;
+    margin-top:15% ;
+    left: -2%;
+    rotate: 50deg;
+    border-radius: 1.5rem;
+    background: rgb(82, 168, 238);
+}
+
+.box15{
+    position: absolute;
+    width: 40rem;
+    height: 70vh;
+    z-index: 50;
+    left: 15%;
+    margin-top: 40%;
+    rotate: 70deg;
+    border-radius: 1.5rem;
+    background: rgb(70, 141, 235);
+}
